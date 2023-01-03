@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'Ramiz_Way to Reinvent Yourself'
+                echo 'Ramiz_Wayyyy to Reinvent Yourself'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
